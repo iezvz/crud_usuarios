@@ -1,0 +1,1 @@
+const CONECCION ="mongodb+srv://usuarioUTAgs:UTAgs2024@cluster0.rnaf4nc.mongodb.net/UsuariosDB?retryWrites=true&w=majority&appName=Cluster0";
