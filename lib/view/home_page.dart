@@ -31,8 +31,7 @@ class _HomePageState extends State<HomePage> {
     listaUsuarios = await mongoCrud.getLista('usuarios');
     jsonEncode(listaUsuarios);
     debugPrint(listaUsuarios.toString());
-    setState(() {
-      
+    setState(() {      
     });
   }
 
@@ -137,7 +136,8 @@ class _HomePageState extends State<HomePage> {
                                                   .toString())
                                           .toJson());
                                   listaUsuarios = await mongoCrud.getLista('usuarios');
-                                  setState(() {});
+                                  //setState(() {});
+                                  fetchData();
                                 },
                                 icon: const Icon(Icons.update)),
                             IconButton(
